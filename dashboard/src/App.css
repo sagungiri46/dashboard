@@ -1,0 +1,46 @@
+.navbar-brand{
+  margin-left: 50px;
+  padding: 15px;  
+}
+
+.con {
+  transition: 0.4s;
+}
+
+.box,
+.box2,
+.box3 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.nn .box {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.nn .box2 {
+  opacity: 0;
+}
+
+.nn .box3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.slidebar {
+  width: 230px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #ccc;
+  margin-left: -230px;
+  transition: 0.4s;
+}
+
+.c {
+  margin-left: 0;
+}
+
